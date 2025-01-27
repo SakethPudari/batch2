@@ -22,13 +22,31 @@
    </div> -->
 
 
-   <form>
+   <!-- <form>
     <input type="text" placeholder="name" id="uName"><br>
     <input type="email" placeholder="email" id="uMail"><br>
     <input type="password" placeholder="password" id="uPsw"><br>
     <input type="submit">
-   </form>
+   </form> -->
 
+
+   <form>
+    <div class="formgroup">
+        <label for="uName">Username : </label>
+        <input type="text" id="uName" placeholder="enter username">
+    </div>
+    <div class="formgroup">
+        <label for="uPass">Password : </label>
+        <input type="password" id="uPass" placeholder="enter password">
+    </div>
+    <div class="formgroup">
+        <label for="">Gender : </label>
+        <input type="radio" name="gender" value="male"><span>Male</span>
+        <input type="radio" name="gender" value="female"><span>Female</span>
+        <input type="radio" name="gender" value="others"><span>Others</span>
+    </div>
+    <input type="submit">
+   </form>
     <script src="./dom1.js"></script>
 </body>
 </html>
