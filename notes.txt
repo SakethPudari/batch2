@@ -278,3 +278,7 @@ click evenets :- onclick , ondblclick , onsubmit , onchange .
 mouse events :- mouseover , mouseleave
 
 key events :- keydown , keyup , keypress(deprocated).
+
+problem
+take array of obj where each obj contains emp name, emp company, emp salary, emp address where emp address furtur contains an obj which includes two properties such as emp city,area.
+display all this employees data on the UI through javascript.
